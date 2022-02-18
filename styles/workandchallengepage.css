@@ -1,0 +1,76 @@
+:root {
+  --branding-color: #9771f3;
+  --primary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  padding: 40px;
+  font-size: 96px;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 48px;
+}
+
+h3 {
+  text-align: center;
+  padding: 80px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+.btn-branding-outline {
+  background: #9ccb73;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+
+.weather-button {
+  background: black;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-description {
+  padding: 30px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}

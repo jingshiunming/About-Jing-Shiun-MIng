@@ -3,9 +3,30 @@ h2,
 h3 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+h2 {
+  padding-top: 40px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+
+.profile-photo {
+  max-width: 45%;
+}
+
+.hero {
+  background-color: #f9f7fe;
+}
+
+logo {
+  display: block;
 }

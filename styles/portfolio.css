@@ -1,5 +1,5 @@
 :root {
-  --brading-color: #9771f3;
+  --branding-color: #9771f3;
   --primary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -28,7 +28,7 @@ p {
 }
 
 .hero {
-  padding: 160px 20px;
+  padding: 160px 50px;
   background-color: var(--primary-color);
   text-align: center;
   margin: 0;
@@ -36,16 +36,18 @@ p {
 }
 
 .profile-photo {
-  max-width: 50%;
-  padding-top: 40px;
+  max-width: 60%;
+  height: auto;
 }
 
-logo {
+.container img {
+  max-width: 50%;
+  height: auto;
   display: block;
 }
 
 .btn-branding {
-  background: var(--brading-color);
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;

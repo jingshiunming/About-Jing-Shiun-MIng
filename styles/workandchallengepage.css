@@ -33,6 +33,12 @@ p {
   line-height: 30px;
 }
 
+ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
 body {
   background: var(--primary-color);
 }

@@ -4,6 +4,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+
 h1,
 h2,
 h3 {
@@ -18,7 +19,8 @@ h1 {
 
 h2 {
   padding-top: 30px;
-  font-size: 48px;
+  font-size: 36px;
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -26,8 +28,17 @@ h3 {
   padding: 80px;
 }
 
-p {
+h4 {
+  padding-bottom: 18px;
+}
+
+p,
+h4,
+ul {
   font-family: var(--default-font-family);
+}
+
+p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -41,6 +52,11 @@ ul {
 
 body {
   background: var(--primary-color);
+}
+
+.tools {
+  font-family: var(--default-font-family);
+  font-style: inherit;
 }
 
 @media (max-width: 960px) {

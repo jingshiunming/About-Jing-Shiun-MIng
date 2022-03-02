@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #9771f3;
-  --primary-color: #fef1d2;
+  --branding-color: #9ccb73;
+  --primary-color: #edf5e1;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -37,7 +37,6 @@ ul {
   margin: 0;
   padding-left: 20px;
   list-style-type: none;
-  font-style: italic;
 }
 
 body {
@@ -45,7 +44,7 @@ body {
 }
 
 .btn-branding-outline {
-  background: #9ccb73;
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;

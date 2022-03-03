@@ -48,6 +48,7 @@ ul {
   margin: 0;
   padding-left: 20px;
   list-style-type: none;
+  margin-bottom: 50px;
 }
 
 .hero {
@@ -59,14 +60,28 @@ ul {
   font-style: inherit;
 }
 
-.contact p {
-  margin-left: 55px;
-  line-height: 10px;
+.card {
+  background-color: black;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top: 20px;
+  color: white;
 }
 
 .contact h4 {
-  margin-top: 40px;
-  margin-left: 55px;
+  font-size: 20px;
+  color: white;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact a:hover {
+  color: var(--branding-color);
 }
 
 nav {

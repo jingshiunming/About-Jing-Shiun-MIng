@@ -4,6 +4,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+
 h1,
 h2,
 h3 {
@@ -28,10 +29,8 @@ p {
 }
 
 .logo {
-  text-align: center;
-  max-width: 20%;
+  max-width: 32%;
   height: auto;
-  display: inline;
 }
 
 .hero {
@@ -57,11 +56,35 @@ p {
   padding: 15px 20px;
 }
 
+nav {
+  padding-top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 30px;
+  }
+  nav li {
+    font-size: 13px;
   }
 }

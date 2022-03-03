@@ -59,6 +59,16 @@ body {
   font-style: inherit;
 }
 
+.contact p {
+  margin-left: 55px;
+  line-height: 10px;
+}
+
+.contact h4 {
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;

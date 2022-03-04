@@ -29,8 +29,10 @@ p {
 }
 
 .logo {
-  max-width: 32%;
-  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  width: auto;
 }
 
 .hero {

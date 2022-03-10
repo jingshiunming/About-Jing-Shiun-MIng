@@ -84,6 +84,58 @@ ul {
   color: var(--branding-color);
 }
 
+.llflogo {
+  max-width: 80%;
+}
+
+.abaclogo {
+  max-width: 40%;
+}
+
+.cattolicalogo {
+  max-width: 75%;
+}
+
+.html {
+  max-width: 68%;
+}
+
+.css {
+  max-width: 52%;
+}
+
+.js {
+  max-width: 71%;
+}
+
+.editor {
+  max-width: 63%;
+}
+
+.api {
+  max-width: 65%;
+}
+
+.github {
+  max-width: 67%;
+}
+
+.bootstrap {
+  max-width: 88%;
+}
+
+.hosting {
+  max-width: 70%;
+}
+
+.react {
+  max-width: 67%;
+}
+
+.office {
+  max-width: 100%;
+}
+
 nav {
   padding-top: 20px;
 }
@@ -119,5 +171,13 @@ nav p {
   }
   nav li {
     font-size: 13px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  h4 {
+    font-size: 20px;
   }
 }

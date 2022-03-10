@@ -28,25 +28,12 @@ p {
   font-size: 24px;
 }
 
-.logo {
-  display: flex;
-  justify-content: space-evenly;
-  height: 150px;
-  width: auto;
-}
-
 .hero {
   padding: 120px 50px;
   text-align: center;
   margin: 0;
   line-height: 1;
   background-color: var(--primary-color);
-}
-
-.container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 .btn-branding {
@@ -56,6 +43,32 @@ p {
   font-size: 18px;
   line-height: 20px;
   padding: 15px 20px;
+}
+
+.card {
+  background-color: black;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 36px;
+}
+
+.contact h4 {
+  font-size: 21px;
+  color: white;
+  line-height: 40px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact a:hover {
+  color: var(--branding-color);
 }
 
 nav {

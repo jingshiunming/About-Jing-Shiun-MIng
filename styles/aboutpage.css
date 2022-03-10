@@ -136,6 +136,15 @@ ul {
   max-width: 100%;
 }
 
+.back-to-top {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: #05386b;
+}
+
 nav {
   padding-top: 20px;
 }

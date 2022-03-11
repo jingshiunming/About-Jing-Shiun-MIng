@@ -117,4 +117,8 @@ nav p {
   nav li {
     font-size: 13px;
   }
+
+  .card {
+    width: 10rem;
+  }
 }

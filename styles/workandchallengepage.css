@@ -39,6 +39,11 @@ ul {
   list-style-type: none;
 }
 
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .btn-branding-outline {
   background: var(--branding-color);
   border-radius: 4px;

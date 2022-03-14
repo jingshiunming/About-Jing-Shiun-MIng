@@ -39,7 +39,7 @@ ul {
   list-style-type: none;
 }
 
-a:hover {
+.project-link:hover {
   font-weight: bold;
   text-decoration: underline;
 }
@@ -119,6 +119,6 @@ nav p {
   }
 
   .card {
-    width: 10rem;
+    margin-bottom: 20px;
   }
 }
